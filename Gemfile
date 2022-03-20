@@ -9,6 +9,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# jsonapi-serializer is forked project of Fast JSON API created by netflix
+gem 'jsonapi-serializer'
 
 # fix error installing pg gem: https://stackoverflow.com/questions/52339221/rails-gem-error-while-installing-pg-1-1-3-and-bundler-cannot-continue
 # sudo apt install postgresql-contrib libpq-dev
